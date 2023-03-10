@@ -18,4 +18,4 @@ async def on_message(message):
     if 'bye' in message.content.lower():
         await message.channel.send('Goodbye!')
 
-client.run(os.getenv('DISCORD_TOKEN'))
+client.run(os.getenv('DISCORD_TOKEN')) #token here
